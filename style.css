@@ -4,8 +4,8 @@
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: #422e9b;
-    --branco: #00ff6a;
-    --botao-ativo: #3A375E;
+    --branco:#00ff6a;
+    --botao-ativo: #630da4;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(180, 10, 148, 0.227);
 }
