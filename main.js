@@ -18,8 +18,8 @@ for (let i = 0; i < botoes.length; i++) {
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2024-05-20T00:00:00");
 const tempoObjetivo2 = new Date("2029-12-12T00:00:00");
-const tempoObjetivo3 = new Date("2027-12-9T00:00:00");
-const tempoObjetivo4 = new Date("2025-07-7T00:00:00");
+const tempoObjetivo3 = new Date("2027-12-09T00:00:00");
+const tempoObjetivo4 = new Date("2025-07-07T00:00:00");
 
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
@@ -44,10 +44,10 @@ function calculaTempo(tempoObjetivo) {
 
 function atualizaCronometro(){
     for (let i=0; i<contadores.length;i++){   
-    document.getElementById("dias"+i).textContent = calculaTempo(tempos[0])[0];
-    document.getElementById("horas"+i).textContent = calculaTempo(tempos[0])[1];
-    document.getElementById("min"+i).textContent = calculaTempo(tempos[0])[2];
-    document.getElementById("seg"+i).textContent = calculaTempo(tempos[0])[3];
+    document.getElementById("dias"+i).textContent = calculaTempo(tempos[i)[0];
+    document.getElementById("horas"+i).textContent = calculaTempo(tempos[i])[1];
+    document.getElementById("min"+i).textContent = calculaTempo(tempos[i])[2];
+    document.getElementById("seg"+i).textContent = calculaTempo(tempos[i])[3];
     }
     
 }
